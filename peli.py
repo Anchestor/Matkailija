@@ -136,7 +136,7 @@ def kaivo(pelaaja):
                     pelaaja.questvalmius = 'valmis'
                     pelaaja.questnro = pelaaja.questnro + 1
                 else:
-                    pelaaja.rahat = pelaaja.rahat + pelaaja.questpalkkio[pelaaja.questnro]
+                    pelaaja.rahat = pelaaja.rahat + questpalkkio[pelaaja.questnro]
                     pelaaja.questvalmius = 'valmis'
                     pelaaja.questnro = pelaaja.questnro + 1
             except TypeError:
@@ -972,7 +972,7 @@ def lue(pelaaja):
               'MENNINKÄISET JA KEIJUT\n\nMenninkäiset ovat kiinnostuneita vain yhdestä asiasta: rahasta.\nNe keräävät rahaa pakkomielteisesti ja kantavat sitä ympäriinsä.\nMenninkäiset eivät kuitenkaan tahdo tehdä rahallaan mitään muuta kuin omistaa sitä mahdollisimman paljon.\n'\
               'Jos niiltä kysyy, miksi ne haluavat rahaa vain rahan itsensä takia, vaikka ne eivät sitä käytä,\nsaa vastaukseksi vain hyvin hämmentyneen katseen.\nMenninkäiset pysyvät usein tiiviisti tietyllä alueella.\n\nKeijut taas ovat kuin lähisukulaistensa menninkäisten vastakohta: ne haluavat tehdä, kokea ja seikkailla.\n'\
               'Tämän takia ne myös pysyvät samassa paikassa vain vähän aikaa. Näitä kahta lajia yhdistää perimän lisäksi vain tietty maanisuus:\nmenninkäisten suunnatessa tarmonsa yhteen asiaan (rahaan), keijut suuntaavat energiansa AIVAN KAIKKEEN.\n\nLOHIKÄÄRMEET\n\nNäitä tulta syökseviä petoja kannattaa vältellä.'\
-              'Ne pesivät tulivuorien lähettyvillä, sillä niiten munat vaativat kehittyäkseen kuumia läpötiloja.\nMunien kuoriutuessa emot ja isot syöksevät yhdessä tulta niitten päälle. Vain tämä haurastuttaa munien kuorta tarpeeksi, että poikaset pääsevät kuoriutumaan.\nLohikäärmeet keräävät menninkäisten lailla rahaa pesiinsä, '\
+              'Ne pesivät tulivuorien lähettyvillä, sillä niiten munat vaativat kehittyäkseen kuumia lämpötiloja.\nMunien kuoriutuessa emot ja isot syöksevät yhdessä tulta niitten päälle. Vain tämä haurastuttaa munien kuorta tarpeeksi, että poikaset pääsevät kuoriutumaan.\nLohikäärmeet keräävät menninkäisten lailla rahaa pesiinsä, '\
               'tosin tämä johtunee enemmän harakkamaisesta viehätyksestä kiiltäviin esineisiin kuin tietoisesta arvotavaroiden arvostuksesta. "\n')
     elif valinta == '3':
         print('"Perunasato on suurempi\n        - ja se olisi siinä"\n')
